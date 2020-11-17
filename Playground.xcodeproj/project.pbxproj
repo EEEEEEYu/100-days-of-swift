@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2169555825617C0E00D39B99 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2169555725617C0E00D39B99 /* main.swift */; };
-		2169556125617E5F00D39B99 /* Day1-6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2169556025617E5F00D39B99 /* Day1-6.swift */; };
+		2169556125617E5F00D39B99 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2169556025617E5F00D39B99 /* Day1.swift */; };
+		21C42C3125637264002441DA /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C42C3025637264002441DA /* Day2.swift */; };
+		21C42C3425637F13002441DA /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C42C3325637F13002441DA /* Day3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +28,9 @@
 /* Begin PBXFileReference section */
 		2169555425617C0E00D39B99 /* Playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Playground; sourceTree = BUILT_PRODUCTS_DIR; };
 		2169555725617C0E00D39B99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2169556025617E5F00D39B99 /* Day1-6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day1-6.swift"; sourceTree = "<group>"; };
+		2169556025617E5F00D39B99 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Day1.swift; sourceTree = "<group>"; };
+		21C42C3025637264002441DA /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		21C42C3325637F13002441DA /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,9 @@
 		2169555F25617E0400D39B99 /* 1.Introduction to Swift */ = {
 			isa = PBXGroup;
 			children = (
-				2169556025617E5F00D39B99 /* Day1-6.swift */,
+				2169556025617E5F00D39B99 /* Day1.swift */,
+				21C42C3025637264002441DA /* Day2.swift */,
+				21C42C3325637F13002441DA /* Day3.swift */,
 			);
 			path = "1.Introduction to Swift";
 			sourceTree = "<group>";
@@ -131,7 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2169555825617C0E00D39B99 /* main.swift in Sources */,
-				2169556125617E5F00D39B99 /* Day1-6.swift in Sources */,
+				21C42C3125637264002441DA /* Day2.swift in Sources */,
+				21C42C3425637F13002441DA /* Day3.swift in Sources */,
+				2169556125617E5F00D39B99 /* Day1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,9 +193,11 @@
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -196,6 +206,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 			};
 			name = Debug;
 		};
@@ -240,9 +251,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -250,6 +263,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 			};
 			name = Release;
 		};
@@ -259,6 +273,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZ9TTP3977;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -270,6 +287,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZ9TTP3977;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
