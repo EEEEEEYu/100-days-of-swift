@@ -10,6 +10,8 @@
 		210A37BB25878DF000A9B78D /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A37BA25878DF000A9B78D /* Day5.swift */; };
 		2169555825617C0E00D39B99 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2169555725617C0E00D39B99 /* main.swift */; };
 		2169556125617E5F00D39B99 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2169556025617E5F00D39B99 /* Day1.swift */; };
+		21899504258A4D5E00E6AA7B /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21899503258A4D5E00E6AA7B /* Day6.swift */; };
+		21899507258A559400E6AA7B /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21899506258A559400E6AA7B /* Day7.swift */; };
 		21C42C3125637264002441DA /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C42C3025637264002441DA /* Day2.swift */; };
 		21C42C3425637F13002441DA /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C42C3325637F13002441DA /* Day3.swift */; };
 		21C42C372563CC07002441DA /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C42C362563CC07002441DA /* Day4.swift */; };
@@ -32,6 +34,8 @@
 		2169555425617C0E00D39B99 /* Playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Playground; sourceTree = BUILT_PRODUCTS_DIR; };
 		2169555725617C0E00D39B99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2169556025617E5F00D39B99 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Day1.swift; sourceTree = "<group>"; };
+		21899503258A4D5E00E6AA7B /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
+		21899506258A559400E6AA7B /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 		21C42C3025637264002441DA /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		21C42C3325637F13002441DA /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		21C42C362563CC07002441DA /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				21C42C3325637F13002441DA /* Day3.swift */,
 				21C42C362563CC07002441DA /* Day4.swift */,
 				210A37BA25878DF000A9B78D /* Day5.swift */,
+				21899503258A4D5E00E6AA7B /* Day6.swift */,
+				21899506258A559400E6AA7B /* Day7.swift */,
 			);
 			path = "1.Introduction to Swift";
 			sourceTree = "<group>";
@@ -144,9 +150,11 @@
 			files = (
 				2169555825617C0E00D39B99 /* main.swift in Sources */,
 				21C42C372563CC07002441DA /* Day4.swift in Sources */,
+				21899507258A559400E6AA7B /* Day7.swift in Sources */,
 				21C42C3125637264002441DA /* Day2.swift in Sources */,
 				21C42C3425637F13002441DA /* Day3.swift in Sources */,
 				210A37BB25878DF000A9B78D /* Day5.swift in Sources */,
+				21899504258A4D5E00E6AA7B /* Day6.swift in Sources */,
 				2169556125617E5F00D39B99 /* Day1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
